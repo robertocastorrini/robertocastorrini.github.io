@@ -14,7 +14,7 @@ $header-font-family: $serif;
 @import "minimal-mistakes";
 
 /* ---- Smaller, lighter text ---- */
-html { font-size: 14px; }
+html { font-size: 13px; }
 @media (min-width: 1024px) { html { font-size: 15px; } }
 
 body { font-weight: 300; }
@@ -24,10 +24,10 @@ strong, b { font-weight: 400; }
 
 /* ---- Sidebar: hide the name, bigger photo ---- */
 .author__name { display: none; }
-.author__avatar img { max-width: 220px; width: 100%; }
+.author__avatar img { max-width: 250px; width: 100%; }
 @media (min-width: 1024px) {
   .author__avatar { display: block; }
-  .author__avatar img { max-width: 220px; }
+  .author__avatar img { max-width: 250px; }
 }
 
 /* ---- Publications: one simple numbered list ---- */
