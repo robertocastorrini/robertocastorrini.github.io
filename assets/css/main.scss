@@ -56,3 +56,9 @@ strong, b { font-weight: 400; }
 .talk-list li { margin-bottom: 0.9em; font-size: 0.9em; }
 .talk-list strong { font-weight: 400; }
 .talk-meta { color: #666; }
+
+/* ---- Sidebar always fully visible (no fade effect) ---- */
+.sidebar,
+.sidebar:hover {
+  opacity: 1 !important;
+}
