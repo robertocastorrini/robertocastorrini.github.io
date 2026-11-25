@@ -11,9 +11,9 @@ locale: "en-US"
 title: "Roberto Castorrini"
 name: "Roberto Castorrini"
 description: "Mathematical physics · Statistical properties of dynamical systems"
-url: "https://YOUR-USERNAME.github.io"
+url: "https://robertocastorrini.github.io"
 baseurl: ""
-repository: "YOUR-USERNAME/YOUR-USERNAME.github.io"
+repository: "robertocastorrini/robertocastorrini.github.io"
 search: false
 
 # Sidebar profile (shown on every page)
