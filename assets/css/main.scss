@@ -32,10 +32,15 @@ strong, b { font-weight: 400; }
 .author__avatar img {
   display: block;
   margin: 0 auto;
-  width: 220px;
-  height: 220px;
+  width: 100% !important;
+  max-width: 220px !important;
+  height: auto !important;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
-  object-position: 10% 30%;
+  object-position: 50% 30%;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  border: none !important;
 }
 
 /* ---- Publications: one simple numbered list ---- */
