@@ -3,17 +3,43 @@
 ---
 
 @charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+
+/* ---- Font: Merriweather everywhere ---- */
+$serif: "Merriweather", Georgia, "Times New Roman", serif;
+$global-font-family: $serif;
+$header-font-family: $serif;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Publication list, in the style of an academic homepage */
-.pub-year { margin-top: 1.5em; border-bottom: 1px solid #e0e0e0; }
-.pub-entry { margin: 0 0 1.2em 0; line-height: 1.45; font-size: 0.9em; }
-.pub-title { font-size: 1.05em; }
-.pub-links a { font-weight: 600; }
+/* ---- Smaller, lighter text ---- */
+html { font-size: 14px; }
+@media (min-width: 1024px) { html { font-size: 15px; } }
+
+body { font-weight: 300; }
+h1, h2, h3, h4, h5, h6, .page__title { font-weight: 400; }
+strong, b { font-weight: 400; }
+.masthead__menu-item a, .site-title { font-weight: 400; }
+
+/* ---- Sidebar: hide the name, bigger photo ---- */
+.author__name { display: none; }
+.author__avatar img { max-width: 220px; width: 100%; }
+@media (min-width: 1024px) {
+  .author__avatar { display: block; }
+  .author__avatar img { max-width: 220px; }
+}
+
+/* ---- Publications: one simple numbered list ---- */
+.pub-list { padding-left: 1.4em; }
+.pub-entry { margin: 0 0 1.3em 0; line-height: 1.55; font-size: 0.9em; }
+.pub-title { font-weight: 400; }
+.pub-authors strong { font-weight: 300; }
+.pub-links { margin-left: 0.3em; }
 .pub-note { color: #3a7d44; font-size: 0.9em; }
 
+/* ---- Talks ---- */
 .talk-list { list-style: none; margin-left: 0; padding-left: 0; }
 .talk-list li { margin-bottom: 0.9em; font-size: 0.9em; }
+.talk-list strong { font-weight: 400; }
 .talk-meta { color: #666; }
