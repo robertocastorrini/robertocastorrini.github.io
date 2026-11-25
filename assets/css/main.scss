@@ -22,12 +22,18 @@ h1, h2, h3, h4, h5, h6, .page__title { font-weight: 400; }
 strong, b { font-weight: 400; }
 .masthead__menu-item a, .site-title { font-weight: 400; }
 
-/* ---- Sidebar: hide the name, bigger photo ---- */
+/* ---- Sidebar: hide the name, bigger, centered photo ---- */
 .author__name { display: none; }
-.author__avatar img { max-width: 250px; width: 100%; }
-@media (min-width: 1024px) {
-  .author__avatar { display: block; }
-  .author__avatar img { max-width: 250px; }
+.author__avatar {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.author__avatar img {
+  display: block;
+  margin: 0 auto;
+  max-width: 220px;
+  width: 100%;
 }
 
 /* ---- Publications: one simple numbered list ---- */
