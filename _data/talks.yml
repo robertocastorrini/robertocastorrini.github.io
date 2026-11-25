@@ -1,0 +1,86 @@
+# Newest first. type: invited | contributed | poster
+- date: "19–22 Oct 2026"
+  event: "DinAmici IX"
+  place: "Scuola Normale Superiore di Pisa, Italy"
+  type: invited
+- date: "19 Dec 2025"
+  event: "DAI DAY IV"
+  place: "Padova, Italy"
+  type: invited
+- date: "17–19 Nov 2024"
+  event: "Stochastic modelling in physics, biology and population dynamics"
+  place: "GSSI, L'Aquila, Italy"
+  type: invited
+- date: "9–13 Sep 2024"
+  event: "Macroscopic behavior of deterministic systems"
+  place: "University of Maryland, USA"
+  type: invited
+- date: "23–26 Jul 2024"
+  event: "Joint AMS–UMI meeting"
+  place: "University of Palermo, Italy"
+  type: contributed
+- date: "15–18 Oct 2023"
+  event: "Ergodic theory and dynamical systems seminar"
+  place: "University of Warwick, UK"
+  type: invited
+- date: "3–8 Sep 2023"
+  event: "Dynamics Days Europe"
+  place: "University of Napoli, Italy"
+  type: contributed
+- date: "21–24 Jun 2023"
+  event: "Wien Dynamics Seminar"
+  place: "Universität Wien, Austria"
+  type: invited
+- date: "5–9 Jun 2023"
+  event: "Regular and stochastic behaviour in dynamical systems"
+  place: "Centro De Giorgi, Scuola Normale Superiore di Pisa, Italy"
+  type: invited
+- date: "26 Apr 2023"
+  event: "Dynamical systems seminar"
+  place: "University of Camerino, Italy"
+  type: invited
+- date: "13–19 Nov 2022"
+  event: "Dynamical systems seminar"
+  place: "Loughborough University, UK"
+  type: invited
+- date: "3–7 Oct 2022"
+  event: "Probabilistic techniques for random and time-varying dynamical systems"
+  place: "CIRM, Luminy, France"
+  type: invited
+- date: "17 Feb 2022"
+  event: "Dynamics Seminar"
+  place: "Centro De Giorgi, Scuola Normale Superiore di Pisa, Italy"
+  type: invited
+- date: "17–21 Nov 2021"
+  event: "Séminaire de Systèmes Dynamiques"
+  place: "Sorbonne Université, Paris, France"
+  type: invited
+- date: "2–7 Aug 2021"
+  event: "International Congress on Mathematical Physics (ICMP)"
+  place: "Geneva, Switzerland"
+  type: contributed
+- date: "21–25 Jun 2021"
+  event: "École d'été finistérienne en systèmes dynamiques"
+  place: "Université de Brest, France"
+  type: invited
+- date: "24–26 Aug 2020"
+  event: "Dynamics Days Europe (Dynamics Days Digital 2020)"
+  place: "Online"
+  type: invited
+  video: "https://www.youtube.com/watch?v=_yT6qERQoEA"
+- date: "12–14 Feb 2020"
+  event: "Regular and stochastic behaviour in dynamical systems"
+  place: "University of Rome Tor Vergata, Italy"
+  type: invited
+- date: "9–13 Dec 2019"
+  event: "Thermodynamic Formalism: Dynamical Systems, Statistical Properties and their Applications"
+  place: "CIRM, Luminy, France"
+  type: contributed
+- date: "1–5 Jul 2019"
+  event: "Thermodynamic Formalism: Ergodic Theory and Validated Numerics (summer school)"
+  place: "CIRM, Luminy, France"
+  type: poster
+- date: "4–7 Jun 2019"
+  event: "DinAmici VI"
+  place: "Scuola Normale Superiore di Pisa, Italy"
+  type: invited

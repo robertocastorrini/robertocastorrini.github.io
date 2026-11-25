@@ -1,0 +1,100 @@
+# One entry per paper, newest first. To add a paper, copy a block and edit it.
+# Fields: title, authors, venue, details, year, status, arxiv, doi, url, pdf, note
+# Your name in **double asterisks** is shown in bold.
+
+- title: "Dolgopyat estimate for partially hyperbolic systems: limit theorems and exponential mixing"
+  authors: "**R. Castorrini**, K. Fernando"
+  venue: "Preprint"
+  year: 2026
+  arxiv: "2611.06314"
+
+- title: "Mean-field limit and Vlasov equation for a Gaussian-thermostatted Lorentz gas"
+  authors: "**R. Castorrini**"
+  venue: "Preprint"
+  year: 2026
+  arxiv: "2610.27992"
+
+- title: "Repulsive mean-field couplings and self-consistent transfer operators"
+  authors: "**R. Castorrini**, S. Galatolo, M. Tanzi"
+  venue: "Journal of Fixed Point Theory and Applications"
+  status: "to appear"
+  year: 2026
+  arxiv: "2609.28664"
+
+- title: "Maharam–Pollicott–Ruelle resonances and self-similar translation flows on abelian covers"
+  authors: "M. Artigiani, **R. Castorrini**, D. Ravotti, Y. Tumarkin"
+  venue: "Preprint"
+  year: 2026
+  arxiv: "2607.11482"
+
+- title: "Four collapsing one-dimensional particles: a dynamical system approach of the spherical billiard reduction"
+  authors: "**R. Castorrini**, T. Dolmaire"
+  venue: "Journal of Nonlinear Science"
+  details: "36, 125"
+  year: 2026
+  arxiv: "2512.24812"
+
+- title: "Horocycle flows on abelian covers of surfaces of negative curvature"
+  authors: "**R. Castorrini**, D. Ravotti"
+  venue: "Annales Scientifiques de l'École Normale Supérieure"
+  status: "to appear"
+  year: 2026
+  arxiv: "2405.08592"
+
+- title: "Dynamical zeta functions for differentiable parabolic maps of the interval"
+  authors: "C. Bonanno, **R. Castorrini**"
+  venue: "Nonlinearity"
+  details: "39, 065007"
+  year: 2026
+  doi: "10.1088/1361-6544/ae7528"
+  arxiv: "2403.17700"
+
+- title: "Stability of fixed points for nonlinear self-consistent transfer operators via cone contractions"
+  authors: "**R. Castorrini**, S. Galatolo, M. Tanzi"
+  venue: "Journal of Statistical Physics"
+  details: "193:27"
+  year: 2026
+  doi: "10.1007/s10955-026-03586-2"
+  arxiv: "2408.08745"
+
+- title: "Limit theorems for toral partially hyperbolic endomorphisms"
+  authors: "**R. Castorrini**, K. Fernando"
+  venue: "Preprint"
+  status: "submitted"
+  year: 2025
+  arxiv: "2507.05959"
+
+- title: "The differential of self-consistent transfer operators and the local convergence to equilibrium of mean field strongly coupled dynamical systems"
+  authors: "**R. Castorrini**, S. Galatolo, M. Tanzi"
+  venue: "Journal of Nonlinear Science"
+  year: 2025
+  doi: "10.1007/s00332-025-10177-0"
+  note: "Open access"
+
+- title: "Discontinuities cause essential spectrum on surfaces"
+  authors: "O. Butterley, G. Canestrari, **R. Castorrini**"
+  venue: "Annales Henri Poincaré"
+  year: 2024
+  doi: "10.1007/s00023-024-01499-y"
+  note: "Open access"
+
+- title: "Thermodynamic formalism for piecewise expanding maps in finite dimension"
+  authors: "V. Baladi, **R. Castorrini**"
+  venue: "Discrete and Continuous Dynamical Systems"
+  details: "44, 2169–2192"
+  year: 2024
+  doi: "10.3934/dcds.2024023"
+  arxiv: "2304.05910"
+
+- title: "Quantitative statistical properties of two-dimensional partially hyperbolic systems"
+  authors: "**R. Castorrini**, C. Liverani"
+  venue: "Advances in Mathematics"
+  details: "409, Part A, 1–122"
+  year: 2022
+  arxiv: "2007.05602"
+
+- title: "Quantitative statistical properties of two-dimensional partially hyperbolic systems"
+  authors: "**R. Castorrini**"
+  venue: "PhD thesis, Gran Sasso Science Institute"
+  year: 2020
+  pdf: "https://iris.gssi.it/retrieve/handle/20.500.12571/10321/3301/2020_Castorrini.pdf"

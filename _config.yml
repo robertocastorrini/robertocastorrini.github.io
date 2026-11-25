@@ -1,0 +1,71 @@
+# ---------------------------------------------------------------
+# Site settings — Roberto Castorrini
+# Theme: Minimal Mistakes (https://mmistakes.github.io/minimal-mistakes/)
+# After creating your GitHub account, replace YOUR-USERNAME below.
+# ---------------------------------------------------------------
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "default"   # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+
+locale: "en-US"
+title: "Roberto Castorrini"
+name: "Roberto Castorrini"
+description: "Mathematical physics · Statistical properties of dynamical systems"
+url: "https://YOUR-USERNAME.github.io"
+baseurl: ""
+repository: "YOUR-USERNAME/YOUR-USERNAME.github.io"
+search: false
+
+# Sidebar profile (shown on every page)
+author:
+  name: "Roberto Castorrini"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Assistant Professor (RTD-A) in Mathematical Physics at the [University of Tuscia](https://www.unitus.it/dipartimenti/deim/). Visiting researcher at the [University of Pisa](https://www.dm.unipi.it/)."
+  location: "DEIM, Campus Riello, Block F, Room FI.29, Viterbo, Italy"
+  email: "roberto.castorrini@unitus.it"
+  links:
+    - label: "arXiv"
+      icon: "fas fa-fw fa-file-alt"
+      url: "https://arxiv.org/search/?searchtype=author&query=Castorrini%2C+Roberto"
+    # Uncomment and fill in the ones you have:
+    # - label: "Google Scholar"
+    #   icon: "fas fa-fw fa-graduation-cap"
+    #   url: "https://scholar.google.com/citations?user=XXXXXXX"
+    # - label: "ORCID"
+    #   icon: "fab fa-fw fa-orcid"
+    #   url: "https://orcid.org/0000-0000-0000-0000"
+    # - label: "MathSciNet"
+    #   icon: "fas fa-fw fa-square-root-alt"
+    #   url: "https://mathscinet.ams.org/mathscinet/MRAuthorID/XXXXXX"
+
+footer:
+  links: []
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-feed
+
+include:
+  - _pages
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      related: false
