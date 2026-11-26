@@ -69,10 +69,11 @@ strong, b { font-weight: 400; }
     width: 100%;
     margin-bottom: 1.5em;
   }
-  .author__avatar,
+    .author__avatar,
   .author__content {
     display: block !important;
     width: 100% !important;
+    height: auto !important;
     padding-left: 0 !important;
     text-align: center;
   }
