@@ -62,29 +62,51 @@ strong, b { font-weight: 400; }
 .sidebar:hover {
   opacity: 1 !important;
 }
-/* ---- Phones and tablets: photo on top, text below ---- */
+/* ---- Phones and tablets: photo on top, then Follow, then the page ---- */
 @media (max-width: 1023px) {
+  .sidebar,
+  .sidebar > div {
+    float: none !important;
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    transform: none !important;
+  }
+  .sidebar > div {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
   .sidebar {
-    float: none;
-    width: 100%;
     margin-bottom: 1.5em;
   }
-    .author__avatar,
+  .author__avatar {
+    display: block !important;
+    float: none !important;
+    position: static !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 auto 0.8em auto;
+  }
+  .author__avatar img {
+    width: 160px !important;
+    max-width: 160px !important;
+    height: auto !important;
+  }
   .author__content {
     display: block !important;
     width: 100% !important;
     height: auto !important;
-    padding-left: 0 !important;
+    padding: 0 !important;
     text-align: center;
   }
-  .author__avatar img {
-    max-width: 160px !important;
-  }
-  .author__bio {
-    margin-top: 0.6em;
-  }
   .author__urls-wrapper {
-    display: block;
+    display: block !important;
+    position: relative !important;
+    width: 100%;
+    margin: 0 !important;
     text-align: center;
   }
 }
