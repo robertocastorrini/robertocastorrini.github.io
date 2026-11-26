@@ -23,7 +23,7 @@ author:
   bio: "Assistant Professor (RTD-A) in Mathematical Physics at the [University of Tuscia](https://www.unitus.it/dipartimenti/deim/). Visiting researcher at the [University of Pisa](https://www.dm.unipi.it/)."
   location: "DEIM, Campus Riello, Block F, Room FI.29, Viterbo, Italy"
   email: "roberto.castorrini@unitus.it"
-    links:
+  links:
     - label: "arXiv"
       icon: "fas fa-fw fa-file-alt"
       url: "https://arxiv.org/search/?searchtype=author&query=Castorrini%2C+Roberto"
