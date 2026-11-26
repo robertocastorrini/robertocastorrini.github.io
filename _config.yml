@@ -28,15 +28,17 @@ author:
       icon: "fas fa-fw fa-file-alt"
       url: "https://arxiv.org/search/?searchtype=author&query=Castorrini%2C+Roberto"
     # Uncomment and fill in the ones you have:
-    # - label: "Google Scholar"
-    #   icon: "fas fa-fw fa-graduation-cap"
-    #   url: "https://scholar.google.com/citations?user=XXXXXXX"
-    # - label: "ORCID"
-    #   icon: "fab fa-fw fa-orcid"
-    #   url: "https://orcid.org/0000-0000-0000-0000"
+     - label: "Google Scholar"
+       icon: "fas fa-fw fa-graduation-cap"
+       url: "https://scholar.google.com/citations?user=Mcd_ySYAAAAJ&hl=en"
+     - label: "ORCID"
+       icon: "fab fa-fw fa-orcid"
+       url: "https://orcid.org/0009-0003-4706-9267"
     # - label: "MathSciNet"
     #   icon: "fas fa-fw fa-square-root-alt"
     #   url: "https://mathscinet.ams.org/mathscinet/MRAuthorID/XXXXXX"
+
+    
 
 footer:
   links: []
